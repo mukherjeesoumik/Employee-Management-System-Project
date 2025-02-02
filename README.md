@@ -1,4 +1,4 @@
-# Employee-Management-System-Project
+# Employee Management System Project
 This project is a web-based department management system using Java Servlets and PostgreSQL. It allows users to create, update, delete, and show department records through a user-friendly interface. The backend handles database interactions seamlessly, ensuring data integrity.
 
 # JSP ( Java Server Pages )
