@@ -138,7 +138,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<p>PostgreSQL JDBC Driver not found. Include it in your library path.</p>");
             e.printStackTrace(out);
         } catch (SQLException e) {
-            e.printStackTrace(out); 
+            e.printStackTrace(out); // Print error details to the response
         }
         out.close();
     }
@@ -168,7 +168,7 @@ public class LoginServlet extends HttpServlet {
             out.println(".container { width: 90%; max-width: 800px; padding: 50px; background-color: #1a1d2e; border-radius: 10px; color: #fff; display: flex; flex-direction: column; align-items: center; }");
             out.println(".container h1 { margin: 0; font-size: 28px; font-weight: 700; }");
             out.println("table { width: 100%; border-collapse: collapse; margin-top: 20px; }");
-            out.println("th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; color: #fff; }"); // Set text color to white
+            out.println("th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; color: #fff; }");
             out.println("th { background-color: #00aaff; color: white; }");
             out.println("tr:hover { background-color: #f5f5f5; }");
             out.println("tr:nth-child(even) { background-color: #2a2d3e; }");
@@ -177,11 +177,10 @@ public class LoginServlet extends HttpServlet {
             out.println("<div class='container'>");
             out.println("<h1>All Records</h1>");
             out.println("<table>");
-            out.println("<tr><th>ID</th><th>Username</th><th>Name</th><th>Age</th><th>Gender</th><th>Mobile Number</th></tr>");
+            out.println("<tr><th>ID</th><th>Name</th><th>Age</th><th>Gender</th><th>Mobile Number</th></tr>");
             while (resultSet.next()) {
                 out.println("<tr>");
                 out.println("<td>" + resultSet.getInt("id") + "</td>");
-                out.println("<td>" + resultSet.getString("username") + "</td>");
                 out.println("<td>" + resultSet.getString("name") + "</td>");
                 out.println("<td>" + resultSet.getInt("age") + "</td>");
                 out.println("<td>" + resultSet.getString("gender") + "</td>");
