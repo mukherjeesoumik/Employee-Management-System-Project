@@ -16,17 +16,17 @@ JavaServer Pages (JSP) is a server-side technology that allows developers to cre
 ``` bash
 MyApp
 ├── src
-│   └── main
-│       ├── java
-│       │   └── com.soumikservlet
-│       │        │
-│       │        └── LoginServlet.java
+|   └── main
+|       ├── java
+|       |   └── com.soumikservlet
+|       |        |
+|       |        └── LoginServlet.java
 |       |        └── RegisterServlet.java
-│       └── webapp
-│           ├── WEB-INF
-│           │   └── web.xml
+|       └── webapp
+|           ├── WEB-INF
+|           |   └── web.xml
 |           └── index.jsp
-│           └── register.html
+|           └── register.html
 ├── pom.xml
 
 ```
@@ -573,7 +573,10 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#Database Table (create database in postgresql) --> *DATABASE NAME=> employee  --> *TABLE NAME => dept
+#Database Table (create database in postgresql) 
+#--> *DATABASE NAME=> employee  
+#--> *TABLE NAME => dept
+
 ```cs
 CREATE TABLE dept (
     id SERIAL PRIMARY KEY,
