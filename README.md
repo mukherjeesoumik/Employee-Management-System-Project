@@ -229,7 +229,7 @@ public class RegisterServlet extends HttpServlet {
         String mobilenumber = request.getParameter("mobilenumber");
 
         PrintWriter out = response.getWriter();
-        int id = Integer.parseInt(idStr); // Cast id to integer
+        int id = Integer.parseInt(idStr);
 
         String jdbcURL = "jdbc:postgresql://localhost:5432/employee";
         String dbUser = "postgres";
@@ -506,21 +506,21 @@ public class RegisterServlet extends HttpServlet {
             color: #6c757d;
         }
         .form-container .button-group {
-            margin-left: 20px; /* Add space between input fields and buttons */
+            margin-left: 20px; 
             display: flex;
             flex-direction: column;
-            align-items: center; /* Center the buttons */
+            align-items: center; 
         }
         .form-container .button-group button {
-            padding: 10px 15px; /* Decrease button size */
+            padding: 10px 15px;
             background-color: #00aaff;
             border: none;
             border-radius: 5px;
             color: #fff;
-            font-size: 14px; /* Decrease font size */
+            font-size: 14px;
             cursor: pointer;
             margin-bottom: 10px;
-            width: 80%; /* Adjust button width */
+            width: 80%;
         }
         .form-container .button-group button:last-child {
             background-color: #6c757d;
