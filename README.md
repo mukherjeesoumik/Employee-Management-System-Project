@@ -116,7 +116,7 @@ public class LoginServlet extends HttpServlet {
         String action = request.getParameter("action");
         PrintWriter out = response.getWriter();
 
-        String jdbcURL = "jdbc:postgresql://localhost:5432/employee";
+        String jdbcURL = "jdbc:postgresql:
         String dbUser = "postgres";
         String dbPassword = "123";
 
