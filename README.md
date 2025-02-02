@@ -20,11 +20,13 @@ MyApp
 │       ├── java
 │       │   └── com.soumikservlet
 │       │        │
-│       │        └── HelloServlet.java
+│       │        └── LoginServlet.java
+|       |        └── RegisterServlet.java
 │       └── webapp
 │           ├── WEB-INF
 │           │   └── web.xml
-│           └── index.jsp
+|           └── index.jsp
+│           └── register.html
 ├── pom.xml
 
 ```
