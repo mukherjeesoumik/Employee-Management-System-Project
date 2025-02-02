@@ -137,7 +137,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<p>PostgreSQL JDBC Driver not found. Include it in your library path.</p>");
             e.printStackTrace(out);
         } catch (SQLException e) {
-            e.printStackTrace(out); // Print error details to the response
+            e.printStackTrace(out); 
         }
         out.close();
     }
