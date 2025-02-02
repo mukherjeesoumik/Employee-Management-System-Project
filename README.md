@@ -350,7 +350,7 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#index.jsp ---(login html file )
+#index.jsp ---( login html file )
 
 ```cs
 <html>
