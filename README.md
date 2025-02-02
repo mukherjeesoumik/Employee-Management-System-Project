@@ -1,4 +1,5 @@
 # Employee-Management-System-Project
+This project is a web-based department management system using Java Servlets and PostgreSQL. It allows users to create, update, delete, and show department records through a user-friendly interface. The backend handles database interactions seamlessly, ensuring data integrity.
 
 # JSP ( Java Server Pages )
 JavaServer Pages (JSP) is a server-side technology that allows developers to create dynamic, platform-independent web applications. JSP is part of the Java EE (Enterprise Edition) platform and is an extension of the servlet technology.
