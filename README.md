@@ -31,7 +31,7 @@ MyApp
 ├── pom.xml
 
 ```
-#pom.xml
+## pom.xml
 
 ```cs
 
@@ -86,7 +86,7 @@ MyApp
 </project>
 
 ```
-#LoginServlet.java
+## LoginServlet.java
 
 ```cs
 package com.soumikservlet;
@@ -194,7 +194,7 @@ public class LoginServlet extends HttpServlet {
 }
 
 ```
-#RegisterServlet.java
+## RegisterServlet.java
 
 ```cs
 package com.soumikservlet;
@@ -350,7 +350,7 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#index.jsp ---( login html file )
+## index.jsp ---( login html file )
 
 ```cs
 <html>
@@ -444,7 +444,7 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#register.html ---( register html file )
+## register.html ---( register html file )
 
 ```cs
 <!DOCTYPE html>
@@ -559,7 +559,7 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#web.xml
+## web.xml
 
 ```cs
 <!DOCTYPE web-app PUBLIC
@@ -573,7 +573,7 @@ public class RegisterServlet extends HttpServlet {
 
 ```
 
-#Database Table (create database in postgresql) 
+## Database Table (create database in postgresql) 
 #--> *DATABASE NAME=> employee  
 #--> *TABLE NAME => dept
 
